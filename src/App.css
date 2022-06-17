@@ -1,38 +1,26 @@
+@import url('./styles/keypad.css');
+@import url('./styles/screen.css');
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(245,104,156,255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculator{
+  width: 90%;
+  height: 90%;
+  background-color: rgba(67,67,67,255);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: 2px  rgba(136,140,139,255) solid;
+  outline: 2px solid rgba(42,42,33,255);
+  border-radius: 17px;
+  box-shadow: 58px 88px 238px #0a0909b5;;
 }
